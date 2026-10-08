@@ -20,7 +20,7 @@ Requires GDAL (for `ogr2ogr`) and standard Unix utilities (`curl`, `gunzip`).
 
 ```bash
 git clone https://github.com/jacobazthompson/NOAA-Storm-Event-Details-Pipeline
-cd noaa-storms-pipeline
+cd NOAA-Storm-Event-Details-Pipeline
 chmod +x pipeline.sh
 ./pipeline.sh
 ```
