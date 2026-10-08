@@ -19,7 +19,7 @@ Total runtime: about 90 seconds for a typical year on a home internet connection
 Requires GDAL (for `ogr2ogr`) and standard Unix utilities (`curl`, `gunzip`).
 
 ```bash
-git clone https://github.com/{your-username}/noaa-storms-pipeline.git
+git clone https://github.com/jacobazthompson/NOAA-Storm-Event-Details-Pipeline
 cd noaa-storms-pipeline
 chmod +x pipeline.sh
 ./pipeline.sh
@@ -28,7 +28,7 @@ chmod +x pipeline.sh
 To run for a specific year:
 
 ```bash
-./pipeline.sh 2023
+./pipeline.sh (year)
 ```
 
 ## What I learned
